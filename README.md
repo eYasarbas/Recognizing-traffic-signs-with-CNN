@@ -1,6 +1,6 @@
 # Project Information
 
-Traffic Sign Recognition using CNN
+Recognizing traffic signs with CNN
 
 ## Information About the Data Set
 
