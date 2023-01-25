@@ -163,9 +163,11 @@ model.summary()
 
 In Artificial Neural Networks, as you know, there is a cost calculation. In this calculation, we want the cost to be minimum. Therefore, calculating the loss value is very important for us. Then, the data was processed, and even at the beginning of the model, we calculated an accuracy value of 94.6%. We plotted the change in loss values and accuracy values on a graph.
 
-image.png
+![image](https://user-images.githubusercontent.com/65676107/214548995-e0c1761c-9a0d-4650-bd66-396cb81277d2.png)
 
-image.png
+
+![image](https://user-images.githubusercontent.com/65676107/214549036-3b28117d-ab35-421d-ae89-310d10a666a9.png)
+
 
 * ### Model 1
 
@@ -206,7 +208,8 @@ model.summary()
 
 We used the Softmax function to determine which class the output from the model could belong to. The neuron with the highest probability is determined as the class of the image. After these operations, we printed the confusion matrix on the screen.
 
-image.png
+![image](https://user-images.githubusercontent.com/65676107/214549194-ecea8e40-aad7-4e3e-b776-ccd58f28b8dc.png)
+
 
 * ### Model 1 with SGD Optimizer
 
@@ -377,7 +380,9 @@ model.evaluate(X_test, y_test)
 When we tested the trained model on the test set, the model obtained results that were about 96.5% accurate.
 
 To visually observe the results on the images, we examined some images in the dataset for the predicted labels and the actual labels. We printed the correctly predicted labels in green and the incorrectly predicted ones in red on the screen.
-image.p
+
+![image](https://user-images.githubusercontent.com/65676107/214549352-5228bca7-646c-4fa5-8eb9-e5fe192a1a7c.png)
+
 
 # Conclusion
 
